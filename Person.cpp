@@ -31,8 +31,14 @@ string Person::GetPassword() {
     return this->password;
 }
 void Person::print_info() {
+<<<<<<< HEAD
     cout << "name: " << GetName() << endl;
     cout << "id: " << GetId() << endl;
     cout << "password: " << GetPassword() << endl;
 
+=======
+    cout << "name: " << name << endl;
+    cout << "id: " << id << endl;
+    cout << "password: " << password << endl;
+>>>>>>> 189e6ae620b75f4a8c4ba32d62878cf00ca2e05c
 }
